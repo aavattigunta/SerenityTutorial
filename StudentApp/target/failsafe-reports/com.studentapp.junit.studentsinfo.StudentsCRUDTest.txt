@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.studentapp.junit.studentsinfo.StudentsCRUDTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.215 sec <<< FAILURE! - in com.studentapp.junit.studentsinfo.StudentsCRUDTest
+test001(com.studentapp.junit.studentsinfo.StudentsCRUDTest)  Time elapsed: 18.184 sec  <<< FAILURE!
+java.lang.AssertionError: 1 expectation failed.
+Expected header "contentType" was not "application/json;charset=UTF-8", was "null". Headers are:
+Location=http://localhost:8080/student/0
+Content-Type=application/json;charset=UTF-8
+Transfer-Encoding=chunked
+Date=Tue, 23 Oct 2018 02:41:03 GMT
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:88)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+	at com.studentapp.junit.studentsinfo.StudentsCRUDTest.test001(StudentsCRUDTest.java:46)
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.studentapp.junit.studentsinfo.StudentsCRUDTest" skipped="0" tests="4" time="23.75" timestamp="2018-10-23 01:40:46"><testcase classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" name="This will create a new student "><failure message="1 expectation failed.&#10;Expected header &quot;contentType&quot; was not &quot;application/json;charset=UTF-8&quot;, was &quot;null&quot;. Headers are:&#10;Location=http://localhost:8080/student/0&#10;Content-Type=application/json;charset=UTF-8&#10;Transfer-Encoding=chunked&#10;Date=Tue, 23 Oct 2018 02:41:03 GMT&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected header "contentType" was not "application/json;charset=UTF-8", was "null". Headers are:
+Location=http://localhost:8080/student/0
+Content-Type=application/json;charset=UTF-8
+Transfer-Encoding=chunked
+Date=Tue, 23 Oct 2018 02:41:03 GMT
+</failure><system-err>1 expectation failed.
+Expected header "contentType" was not "application/json;charset=UTF-8", was "null". Headers are:
+Location=http://localhost:8080/student/0
+Content-Type=application/json;charset=UTF-8
+Transfer-Encoding=chunked
+Date=Tue, 23 Oct 2018 02:41:03 GMT
+
+io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:88)
+io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+com.studentapp.junit.studentsinfo.StudentsCRUDTest.test001(StudentsCRUDTest.java:46)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" name="Verify if the student was added to the application"/><testcase classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" name="Update the user information and verify the upodated information!"/><testcase classname="com.studentapp.junit.studentsinfo.StudentsCRUDTest" name="Delete the student and verify wheather the student is deleted"/></testsuite>

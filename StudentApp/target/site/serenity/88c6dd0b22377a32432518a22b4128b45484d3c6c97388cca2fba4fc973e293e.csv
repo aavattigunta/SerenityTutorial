@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"First serenity test","This is not good","FAILURE","2018-10-23T13:41:02.166+11:00[Australia/Sydney]","0.0","1.65"
+"First serenity test","This is a error test","ERROR","2018-10-23T13:41:05.943+11:00[Australia/Sydney]","0.0","0.67"

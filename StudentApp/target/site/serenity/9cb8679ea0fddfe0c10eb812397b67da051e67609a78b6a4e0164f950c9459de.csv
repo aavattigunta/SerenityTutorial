@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Students CRUD test","Verify if the student was added to the application","SUCCESS","2018-10-23T13:41:06.254+11:00[Australia/Sydney]","0.0","3.18"
+"Students CRUD test","Update the user information and verify the upodated information!","SUCCESS","2018-10-23T13:41:09.442+11:00[Australia/Sydney]","0.0","1.33"
+"Students CRUD test","Delete the student and verify wheather the student is deleted","SUCCESS","2018-10-23T13:41:10.798+11:00[Australia/Sydney]","0.0","1.23"

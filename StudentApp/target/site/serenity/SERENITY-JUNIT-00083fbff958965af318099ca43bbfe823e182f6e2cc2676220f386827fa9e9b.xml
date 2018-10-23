@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.studentapp.junit.studentsinfo.FirstSerenityTest" skipped="4" tests="8" time="22.26" timestamp="2018-10-23 01:40:45"><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This test will get the information of all the students from the Student App"/><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This is not good"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp.junit.studentsinfo.FirstSerenityTest.thisIsNotGood(FirstSerenityTest.java:39)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This is a manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Ignore skipped test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="This is a error test"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero
+com.studentapp.junit.studentsinfo.FirstSerenityTest.thisIsAErrorTest(FirstSerenityTest.java:55)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="File doesnt exist"><compromised message="/E:/file.txt (No such file or directory)" type="java.io.FileNotFoundException">/E:/file.txt (No such file or directory)</compromised><system-err>/E:/file.txt (No such file or directory)
+com.studentapp.junit.studentsinfo.FirstSerenityTest.fileDoesntExist(FirstSerenityTest.java:61)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.studentsinfo.FirstSerenityTest" name="Get all students"/></testsuite>
